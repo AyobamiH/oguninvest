@@ -59,7 +59,7 @@ export default function ContactForm() {
   return (
     <div className="flex justify-center items-center min-h-screen bg-white px-6 py-12">
        <Helmet>
-        <title>Investor Inquiry Form</title>
+        <title>Investor Contact Form</title>
         <meta name="description" content="Submit your investor inquiry form to get in touch with us." />
         <meta name="keywords" content="investor, inquiry, contact, Nigeria, investment" />
       </Helmet>
