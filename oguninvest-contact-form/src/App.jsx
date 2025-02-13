@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { Helmet } from "react-helmet-async";
 const country = "Nigeria";
 const states = [
   "Abia", "Adamawa", "Akwa Ibom", "Anambra", "Bauchi", "Bayelsa", "Benue", "Borno", "Cross River", "Delta", "Ebonyi", "Edo", "Ekiti", "Enugu", "Gombe", "Imo", "Jigawa", "Kaduna", "Kano", "Katsina", "Kebbi", "Kogi", "Kwara", "Lagos", "Nasarawa", "Niger", "Ogun", "Ondo", "Osun", "Oyo", "Plateau", "Rivers", "Sokoto", "Taraba", "Yobe", "Zamfara", "FCT Abuja"
@@ -72,9 +72,13 @@ export default function ContactForm() {
             <option value="">Select Sector</option>
             <option>Real Estate</option>
             <option>Manufacturing</option>
-            <option>Technology</option>
+            <option>ICT </option>
             <option>Agriculture</option>
+            <option>Infrastucture</option>
+            <option>Transportation</option>
+            <option>Renewable Energy</option>
             <option>Others</option>
+            
           </select>
           <select className="border p-3 rounded" name="country" disabled>
             <option value="Nigeria">Nigeria</option>
