@@ -58,6 +58,11 @@ export default function ContactForm() {
 
   return (
     <div className="flex justify-center items-center min-h-screen bg-white px-6 py-12">
+       <Helmet>
+        <title>Investor Inquiry Form</title>
+        <meta name="description" content="Submit your investor inquiry form to get in touch with us." />
+        <meta name="keywords" content="investor, inquiry, contact, Nigeria, investment" />
+      </Helmet>
       <div className="p-10 w-full max-w-2xl shadow-lg border rounded-2xl bg-white flex flex-col justify-center items-center">
         <h2 className="text-green-700 text-2xl font-bold mb-6 text-center">Contact Us</h2>
         <form className="grid grid-cols-1 gap-6 w-full" onSubmit={handleSubmit}>
