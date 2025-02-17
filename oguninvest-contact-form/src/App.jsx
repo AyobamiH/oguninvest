@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Helmet } from "react-helmet-async";
+import { HelmetProvider  } from "react-helmet-async";
 const country = "Nigeria";
 const states = [
   "Abia", "Adamawa", "Akwa Ibom", "Anambra", "Bauchi", "Bayelsa", "Benue", "Borno", "Cross River", "Delta", "Ebonyi", "Edo", "Ekiti", "Enugu", "Gombe", "Imo", "Jigawa", "Kaduna", "Kano", "Katsina", "Kebbi", "Kogi", "Kwara", "Lagos", "Nasarawa", "Niger", "Ogun", "Ondo", "Osun", "Oyo", "Plateau", "Rivers", "Sokoto", "Taraba", "Yobe", "Zamfara", "FCT Abuja"
@@ -58,11 +58,11 @@ export default function ContactForm() {
 
   return (
     <>
-    <Helmet>
+    <HelmetProvider >
         <title>Investor Contact Form</title>
         <meta name="description" content="Submit your investor inquiry form to get in touch with us." />
         <meta name="keywords" content="investor, inquiry, contact, Nigeria, investment" />
-      </Helmet>
+      </HelmetProvider >
     
     <div className="flex justify-center items-center min-h-screen bg-white px-6 py-12">
        
