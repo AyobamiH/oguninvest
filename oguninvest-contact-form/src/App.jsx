@@ -78,7 +78,7 @@ export default function ContactForm() {
           <input className="border p-3 rounded" name="company" placeholder="Company Name" required onChange={handleChange} />
           <select className="border p-3 rounded" name="sector" required onChange={handleChange}>
             <option value="">Select Sector</option>
-            <option>Real Estate</option>
+            
             <option>Manufacturing</option>
             <option>ICT </option>
             <option>Agriculture</option>
